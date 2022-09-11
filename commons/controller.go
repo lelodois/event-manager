@@ -19,7 +19,7 @@ func WriteResponseBy(context *gin.Context, err error) {
 	if err != nil {
 		context.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
 	} else {
-		context.JSON(http.StatusCreated, nil)
+		context.JSON(http.StatusCreated, http.StatusCreated)
 	}
 }
 

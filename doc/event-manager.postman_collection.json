@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\" : \"Yuri Alberto\",\n    \"balance\": 100.00\n}",
+							"raw": "{\n    \"name\" : \"Roger Guedes\",\n    \"balance\": 100.00\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -80,7 +80,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\" : \"Festa de arrepiar\",\n    \"capacity\" : 3,\n    \"ticket_price\": 55.00,\n    \"date\": \"2025-09-12T23:54:39.456-03:00\"\n}",
+							"raw": "{\n    \"name\" : \"Final da copa do Brasil\",\n    \"capacity\" : 3,\n    \"ticket_price\": 50.00,\n    \"date\": \"2025-09-12T23:54:39.456-03:00\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -144,7 +144,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\" : \"Leozito tester\",\n    \"balance\": 100.00\n}",
+							"raw": "{\n    \"user_id\" : 1,\n    \"event_id\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -152,14 +152,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/user",
+							"raw": "http://localhost:8080/ticket",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"user"
+								"ticket"
 							]
 						}
 					},
