@@ -183,14 +183,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:8080/event",
+							"raw": "http://localhost:8080/ticket",
 							"protocol": "http",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"event"
+								"ticket"
 							]
 						}
 					},
