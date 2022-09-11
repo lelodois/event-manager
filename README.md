@@ -1,12 +1,10 @@
-# back-end - App para criar tickets em eventos
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
+# App para criar tickets de eventos
 
 > O objetivo desta app é explorarmos as facilidades do golang
 > para criações de apps de back-end :)
 > Build fast, reliable, and efficient software at scale
 
+---
 #### Ferramentas
 - Go - Golang
 - Mysql
@@ -15,12 +13,15 @@
 - Docker compose
 - Postman
 
+---
 ### Funcionalidades
 
 - Cria / Lista - Usuários
 - Cria / Lista - Eventos
 - Cria / Lista - Tickets
 
+---
+### Modelagem
 ![Modelagem](doc/mer.png)
 
 ### Regras de negócio
@@ -30,6 +31,7 @@
 - O usuário deve ter saldo maior que o valor do ticket do evento
 - Não pode exceder tickets a mais que a capacidade do evento
 
+---
 ### Instruções para testar
 
 - 1 - Inicie o docker
@@ -40,6 +42,7 @@
 - 6 - Crie na sequência um Usuário, um evento
 - 7 - No list Recupere os ids (usuário e evento) e crie um Ticket
 
+---
 ### Conceitos
 
 | Nome | Detalhe |
@@ -49,7 +52,11 @@
 | Migrate | Cria a base de dados e as tabelas no início da app |
 | Transação | Multiplas instruções sql garantidas em apenas uma transação (reservation) |
 
+---
 ### Arquivos 
 
 ![Modelagem](doc/files.png)
+
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
