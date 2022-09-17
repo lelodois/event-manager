@@ -49,7 +49,7 @@
 - 1 - Inicie o docker
 - 2 - Sugiro importar o projeto com o Goland
 - 3 - Na raiz do projeto execute: `docker-compose up -d`
-- 4 - Vá até o arquivo `main/main_teste.go` clique no `botão direito` e depois em `debug`
+- 4 - Vá até o arquivo `main/main_test.go` clique no `botão direito` e depois em `debug`
 - 5 - O teste integrado criará um user, event e um ticket, acompanhe no log
 ```
 === RUN   TestIntegrationTest
