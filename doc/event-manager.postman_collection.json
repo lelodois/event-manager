@@ -16,7 +16,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\" : \"Roger Guedes\",\n    \"balance\": 100.00\n}",
+							"raw": "{\n    \"name\" : \"Roger Guedes\",\n    \"email\" : \"dasdas@dasdas.com.br\",\n    \"balance\": 100.00\n}",
 							"options": {
 								"raw": {
 									"language": "json"
